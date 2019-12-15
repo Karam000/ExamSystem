@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ExamSystem
+{
+    class Exam
+    {
+        Dictionary<Question, string> dictionary = new Dictionary<Question, string> { };
+
+        public Exam(Question question)
+        {
+
+        }
+    }
+}
